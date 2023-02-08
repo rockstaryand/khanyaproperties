@@ -10,12 +10,6 @@
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
       crossorigin="anonymous"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
-      integrity="sha512-J3v2xlnfhKsUdbtXugIE1rPc5LQNE5kTaO2QUS7+ib2f0hHhy03zEZbryfjI+l6gKL6jlmR44WLlQNQZYKqA=="
-      crossorigin="anonymous"
-    />
   </head>
   <body>
     <header id="header-wrap">
@@ -33,10 +27,9 @@
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
-              <span class="navbar-toggler-icon"></span>
-              <span class="icon-menu"></span>
-              <span class="icon-menu"></span>
-              <span class="icon-menu"></span>
+              <span class="navbar-toggler-icon"
+                ><i class="fa fa-menu"></i
+              ></span>
             </button>
             <a href="index.html" class="navbar-brand"
               ><img src="assets/img/logo.png" alt=""
@@ -55,9 +48,7 @@
               <li class="nav-item">
                 <a class="nav-link" href="#services"> Services </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#resume"> Resume </a>
-              </li>
+
               <li class="nav-item">
                 <a class="nav-link" href="#portfolios"> Work </a>
               </li>
@@ -79,9 +70,7 @@
           <li>
             <a href="#services">Services</a>
           </li>
-          <li>
-            <a href="#resume">resume</a>
-          </li>
+
           <li>
             <a href="#portfolio">Work</a>
           </li>
@@ -114,36 +103,22 @@
                     <a
                       class="facebook"
                       href="https://m.facebook.com/profile.php?id=100004792159341"
-                      ><i class="fab fa-facebook"></i
+                      ><i class="fa fa-facebook"></i
                     ></a>
                   </li>
-                  <!-- <li>
-                    <a
-                      class="twitter"
-                      href="https://www.twitter.com/officialyand"
-                      ><i class="fab fa-twitter"></i
-                    ></a>
-                  </li> -->
+
                   <li>
                     <a
                       class="instagram"
                       href="https://www.instagram.com/khanya_lumkwana_/"
-                      ><i class="fab fa-instagram"></i
+                      ><i class="fa fa-instagram"></i
                     ></a>
                   </li>
-                  <!-- <li>
-                    <a
-                      class="linkedin"
-                      href="https://www.linkedin.com/in/yandisa-mvalo-4b31a316b/?originalSubdomain=za"
-                      ><i class="fab fa-linkedin-in"></i
-                    ></a>
-                  </li> -->
-                  <!-- <li>
-                    <a class="google" href="#"><i class="icon-social-google"></i></a>
-                  </li> -->
                 </ul>
                 <div class="header-button wow fadeInUp" data-wow-delay="1s">
-                  <a href="#about" class="btn btn-common">Get to know me</a>
+                  <a href="#about" class="btn btn-common active"
+                    >Get to know me</a
+                  >
                 </div>
               </div>
             </div>
@@ -215,7 +190,7 @@
               </div>
               <!-- <a href="#" class="btn btn-common"><i class="icon-paper-clip"></i> Download Resume</a> -->
               <a href="#contact" class="btn btn-common"
-                ><i class="icon-speech"></i> Contact Me</a
+                ><i class="fa-solid fa-comment"></i> Contact Me</a
               >
             </div>
           </div>
@@ -229,10 +204,10 @@
       <h2 class="section-title wow flipInX" data-wow-delay="0.4s">What I do</h2>
       <div class="container">
         <div class="row">
-          <div class="col-md-6 col-lg-3 col-xs-12">
+          <div class="col-md-6 col-lg-4 col-xs-12">
             <div class="services-item wow fadeInDown" data-wow-delay="0.3s">
               <div class="icon">
-                <i class="icon-grid"></i>
+                <i class="fa fa-home"></i>
               </div>
               <div class="services-content">
                 <h3><a href="#">Buying and Selling</a></h3>
@@ -249,10 +224,10 @@
             </div>
           </div>
 
-          <div class="col-md-6 col-lg-3 col-xs-12">
+          <div class="col-md-6 col-lg-4 col-xs-12">
             <div class="services-item wow fadeInDown" data-wow-delay="0.6s">
               <div class="icon">
-                <i class="icon-layers"></i>
+                <i class="fa fa-house-user"></i>
               </div>
               <div class="services-content">
                 <h3><a href="#">Property Management</a></h3>
@@ -265,10 +240,10 @@
               </div>
             </div>
           </div>
-          <div class="col-md-6 col-lg-3 col-xs-12">
+          <div class="col-md-6 col-lg-4 col-xs-12">
             <div class="services-item wow fadeInDown" data-wow-delay="0.6s">
               <div class="icon">
-                <i class="icon-layers"></i>
+                <i class="fa fa-check"></i>
               </div>
               <div class="services-content">
                 <h3><a href="#">Pre Approval for buyers</a></h3>
@@ -289,82 +264,7 @@
     <!-- Services Section End -->
 
     <!-- Resume Section Start -->
-    <!-- <div id="resume" class="section-padding">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6 col-md-6 col-sm-6">
-            <div class="education wow fadeInRight" data-wow-delay="0.3s">
-              <ul class="timeline">
-                <li>
-                  <i class="fas fa-graduation-cap"></i>
-                  <h2 class="timelin-title">Education</h2>
-                </li>
-                <li>
-                  <div class="content-text">
-                    <h3 class="line-title">
-                      EOH/ CapaCiti (Post Matric Program)
-                    </h3>
-                    <span>Jan 2018 - Jun 2018</span>
-                    <p class="line-text">
-                      Completed a short course in Information technology:
-                      Systems Development. Learned Java basics
-                    </p>
-                  </div>
-                </li>
-                <li>
-                  <div class="content-text">
-                    <h3 class="line-title">
-                      High School - Center of Science and Technology
-                    </h3>
-                    <span>2012 - 2016</span>
-                    <p class="line-text">
-                      Was awarded the National Senior Certificate and graduated
-                      with a Bachelor's Pass.
-                    </p>
-                  </div>
-                </li>
-                
-              </ul>
-            </div>
-          </div>
-          <div class="col-lg-6 col-md-6 col-sm-6">
-            <div class="experience wow fadeInRight" data-wow-delay="0.6s">
-              <ul class="timeline">
-                <li>
-                  <i class="fas fa-briefcase"></i>
-                  <h2 class="timelin-title">Experience</h2>
-                </li>
-                <li>
-                  <div class="content-text">
-                    <h3 class="line-title">
-                      Software Developer - Younglings Africa
-                    </h3>
-                    <span>July 2018 - Jan 2019</span>
-                    <p class="line-text">
-                      Built mobile applications using outsystems. Completed a
-                      Web Responsive design and Front end Libraries course on
-                      freecodecamp.
-                    </p>
-                  </div>
-                </li>
-                <li>
-                  <div class="content-text">
-                    <h3 class="line-title">Web Developer Intern - AbsaGroup</h3>
-                    <span>Feb 2019 - Present</span>
-                    <p class="line-text">
-                      Working on several projects with real clients and gaining
-                      the experience using the latest technologies and
-                      frameworks.
-                    </p>
-                  </div>
-                </li>
-                
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> -->
+
     <!-- Resume Section End -->
 
     <!-- Portfolio Section -->
@@ -390,11 +290,27 @@
                     <div
                       class="img-thumb-2 wow fadeInLeft"
                       data-wow-delay="0.3s"
-                      style="margin-bottom: 20px"
+                      style="margin-bottom: 40px"
                     >
                       <img
                         class="img-fluid text-center"
                         src="assets/20211110_144447.jpg"
+                        alt=""
+                        width="800px"
+                        height="800px"
+                      />
+                    </div>
+                  </div>
+
+                  <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div
+                      class="img-thumb-2 wow fadeInLeft"
+                      data-wow-delay="0.3s"
+                      style="margin-bottom: 40px"
+                    >
+                      <img
+                        class="img-fluid text-center"
+                        src="assets/20220105_203104.jpg"
                         alt=""
                         width="800px"
                         height="800px"
@@ -419,21 +335,6 @@
                     <div
                       class="img-thumb-2 wow fadeInLeft"
                       data-wow-delay="0.3s"
-                      style="margin-bottom: 20px"
-                    >
-                      <img
-                        class="img-fluid text-center"
-                        src="assets/20220105_203104.jpg"
-                        alt=""
-                        width="800px"
-                        height="800px"
-                      />
-                    </div>
-                  </div>
-                  <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                    <div
-                      class="img-thumb-2 wow fadeInLeft"
-                      data-wow-delay="0.3s"
                     >
                       <img
                         class="img-fluid text-center"
@@ -448,18 +349,10 @@
                     <div
                       class="profile-wrapper wow fadeInRight"
                       data-wow-delay="0.3s"
-                    >
-                      <!-- <a href="#" class="btn btn-common"><i class="icon-paper-clip"></i> Download Resume</a> -->
-                      <!-- <a href="#contact" class="btn btn-common"
-                        ><i class="icon-speech"></i> Contact Me</a
-                      > -->
-                    </div>
+                    ></div>
                   </div>
                 </div>
               </div>
-              <!-- <a class="filter btn btn-common" data-filter=".print">
-                Print 
-              </a> -->
             </div>
             <!-- Portfolio Controller/Buttons Ends-->
           </div>
@@ -609,6 +502,7 @@
             <div class="col-md-6 col-lg-6 col-sm-12">
               <div class="footer-right-area wow fadeIn">
                 <h2>Contact Address</h2>
+
                 <div class="footer-right-contact">
                   <div class="single-contact">
                     <div class="contact-icon">
@@ -661,8 +555,8 @@
                 <li>
                   <a
                     class="facebook"
-                    href="https://www.facebook.com/rockstaryand"
-                    ><i class="fab fa-facebook"></i
+                    href="https://m.facebook.com/profile.php?id=100004792159341"
+                    ><i class="fa fa-facebook"></i
                   ></a>
                 </li>
 
@@ -670,13 +564,9 @@
                   <a
                     class="instagram"
                     href="https://www.instagram.com/khanya_lumkwana_/"
-                    ><i class="fab fa-instagram"></i
+                    ><i class="fa fa-instagram"></i
                   ></a>
                 </li>
-
-                <!-- <li>
-                  <a class="instagram" href="#"><i class="icon-social-google"></i></a>
-                </li> -->
               </ul>
               <p id="copyright">
                 Copyright &copy; <span id="year"></span> Khanya Properties
@@ -699,6 +589,11 @@
     <script
       src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
       integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://kit.fontawesome.com/a5d9189690.js"
       crossorigin="anonymous"
     ></script>
   </body>

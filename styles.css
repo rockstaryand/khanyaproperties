@@ -1026,8 +1026,11 @@ a:not([href]):not([tabindex]):hover {
 
 .footer-right-contact {
   padding: 4px;
-  border: 1px solid #e1e1e1;
+  /* border: 1px solid #e1e1e1; */
   margin-top: 30px;
+}
+.footer-right-contact .img-thumb {
+  width: 400px;
 }
 
 .footer-right-contact .single-contact {
