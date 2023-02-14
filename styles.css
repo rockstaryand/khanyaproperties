@@ -9494,7 +9494,8 @@ a.text-dark:hover {
 @media (max-width: 991px) {
   .section-title {
     font-size: 30px;
-    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-bottom: 60px;
   }
   .services-item .services-content h3 a {
     font-size: 14px;
@@ -9508,7 +9509,7 @@ a.text-dark:hover {
 @media (min-width: 768px) and (max-width: 991px) {
   .section-title {
     font-size: 26px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
   }
   .services-item .services-content h3 a {
     font-size: 16px;
@@ -9819,7 +9820,7 @@ a.text-dark:hover {
 @media (max-width: 767px) {
   .section-title {
     font-size: 22px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
   }
   .section-sub {
     font-size: 16px;
